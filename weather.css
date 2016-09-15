@@ -1,0 +1,30 @@
+html {
+  background: url(bg/no.jpg) no-repeat center center fixed;
+  background-size: cover;    
+}
+
+body {
+  color:linear-gradient(to left, rgba(222,164,125,.9), rgba(92,74,125,.9));
+  opacity: 0.8;
+}
+
+.jumbotron {
+   margin-top: 10px;
+  opacity: 0.8;
+}
+
+.main {
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, rgba(222,164,125,.9), rgba(92,74,125,.9));
+  padding: 10px;
+  opacity: 0.9;
+}
+
+.instruct {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.random {
+  margin-top: 5px;
+}
