@@ -1,5 +1,5 @@
 html {
-  background: url(bg/no.jpg) no-repeat center center fixed;
+  background: url(https://static.pexels.com/photos/125510/pexels-photo-125510.jpeg) no-repeat center center fixed;
   background-size: cover;    
 }
 
@@ -14,8 +14,12 @@ body {
 }
 
 .main {
+  background:black;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left,  rgba(226,175,225,.3), rgba(221,210,197,.3),rgba(255,249,254,.3), rgba(221,210,197,.3), rgba(226,175,225,.3));
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, rgba(222,164,125,.9), rgba(92,74,125,.9));
+  background: linear-gradient(to left, rgba(126,175,225,.3), rgba(221,210,197,.3),rgba(255,249,254,.3), rgba(221,210,197,.3), rgba(126,175,225,.3));
+padding:20px 0 25px
   padding: 10px;
   opacity: 0.9;
 }
